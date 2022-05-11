@@ -1,5 +1,5 @@
 # USBDROP                               
-## A Simple USB Drop Attack aiming to exfiltrate browser passwords
+## A simple USB drop attack to exfiltrate browser passwords
 
 A ‘USB drop attack’, also known as ‘USB Baiting’ is a commonly used social engineering attack whereby a USB stick containing malicious software is conveniently placed (dropped) where the target will likely find it. The attack relies on the curiosity of a target and seeks to entice them to insert the device into their pc in order to discover the contents or owner of the device. 
 
