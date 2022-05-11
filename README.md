@@ -41,10 +41,10 @@ In order to achieve the above, the following steps need to be taken:
 2. Open the USB drive, create a folder named ‘Tool’ and copy ‘WebBrowserPassView.exe’ into the folder. Set this folder as ‘hidden’ in order to remove it from user view.
 3. Copy the Contact.bat script to the root of the USB drive file attributes on it to ‘hidden’.
 4. Right click the script and create a shortcut of it named ‘Contact Details’. Change the icon of this shortcut to one represanting a contact.
-5. Set the script shortcut to run minimized as below. This will reduce the chance of the victim noticing anything being executed.
+5. Set the script shortcut to run minimized (right click/properties). This will reduce the chance of the victim noticing anything being executed.
 6. The victim simply needs to double click the ‘Contact Details’ shortcut and the whole process will run without the users’ knowledge.
 
 
 # Attack results
 
-Upon successful deployment, a text file containing browser passwords is saved to the ‘Tool’ directory and a copy sent to the configured email address in the script. Traces of the script and attachements are then deleted to cover tracks.
+Upon successful deployment, a text file containing browser passwords is saved to the ‘Tool’ directory and a copy sent to the configured email address in the script. Traces of the script and attachments are then auto deleted to cover tracks.
