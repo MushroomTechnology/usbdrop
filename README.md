@@ -45,6 +45,6 @@ In order to achieve the above, the following steps need to be taken:
 6. The victim simply needs to double click the ‘Contact Details’ shortcut and the whole process will run without the users’ knowledge.
 
 
-# Attack results
+## Attack results
 
 Upon successful deployment, a text file containing browser passwords is saved to the ‘Tool’ directory and a copy sent to the configured email address in the script. Traces of the script and attachments are then auto deleted to cover tracks.
