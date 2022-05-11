@@ -20,7 +20,7 @@ Powershell -ExecutionPolicy Bypass -Command "& '%EmailCreds%' '%GmailUser%' '%Gm
 IF EXIST "%~FN0" DEL /Q /F "%~FN0"
 EXIT
 
-:EmailPowerShell - You will need to set 'EmailTo' & 'EmailFrom' variables
+:EmailPowerShell - You will need to populate  'EmailTo' and 'EmailFrom' variables
 SET PowerShellDir=C:\Windows\System32\WindowsPowerShell\v1.0
 SET EmailCreds=%temp%\~tmpSendEmail.ps1
 IF EXIST "%EmailCreds%" DEL /Q /F "%EmailCreds%"
